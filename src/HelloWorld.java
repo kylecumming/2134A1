@@ -2,9 +2,9 @@
  * Purpose to download, run and make sure it works, then commit the result.
  * Steps to complete this assignment:
  * 1.  Change line 17 so that bannerNumber is set to your banner number
- * 2.  Change line 18 so that csid is set to your banner number
- * 3.  Change line 19 so that lastName is set to your banner number
- * 4.  Change line 20 so that firstName is set to your banner number
+ * 2.  Change line 18 so that csid is set to your CSID
+ * 3.  Change line 19 so that lastName is set to your last name
+ * 4.  Change line 20 so that firstName is set to your first name
  * 5.  Compile and run the program
  * 6.  Commit and push the changes back to the repository
  * 7.  You're done!
