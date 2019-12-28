@@ -14,16 +14,24 @@ import java.io.File;
 import java.io.FileWriter;
 
 public class HelloWorld {
-    private static final String bannerNumber = "B00"; // set your full Banner Number here
-    private static final String csid = "????";        // replace ???? with your csid (e.g., abrodsky)
-    private static final String lastName = "????";    // replace ???? with your last name (e.g., Brodsky)
-    private static final String firstName = "????";   // replace ???? with your last name (e.g., Alex)
+    // set your full Banner Number here
+    private static final String bannerNumber = "B00";
+
+    // replace ???? with your csid (e.g., abrodsky)
+    private static final String csid = "????";
+
+    // replace ???? with your last name (e.g., Brodsky)
+    private static final String lastName = "????";
+
+    // replace ???? with your last name (e.g., Alex)
+    private static final String firstName = "????";
 
     public static void main(String [] args) {
         try {
             File f = new File("data.txt");
             FileWriter fw = new FileWriter(f);
-            fw.write(bannerNumber + "," + csid + ",\"" + lastName + "\",\"" + firstName + "\",");
+            fw.write(bannerNumber + "," + csid + ",\"" + lastName + "\",\""
+                    + firstName + "\",");
             fw.close();
         } catch (Exception e) {
             System.out.println("Oops, something went wrong.");
