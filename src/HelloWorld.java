@@ -15,16 +15,16 @@ import java.io.FileWriter;
 
 public class HelloWorld {
     // set your full Banner Number here
-    private static final String bannerNumber = "B00";
+    private static final String bannerNumber = "B00773076";
 
     // replace ???? with your csid (e.g., abrodsky)
-    private static final String csid = "????";
+    private static final String csid = "cumming";
 
     // replace ???? with your last name (e.g., Brodsky)
-    private static final String lastName = "????";
+    private static final String lastName = "Cumming";
 
     // replace ???? with your last name (e.g., Alex)
-    private static final String firstName = "????";
+    private static final String firstName = "Kyle";
 
     public static void main(String [] args) {
         try {
